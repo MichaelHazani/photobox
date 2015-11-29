@@ -3,21 +3,23 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="./bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flickr Experiment</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 center-block text-center">
-                <input type="text" placeholder="keyword" class="query" /> <input type="number" class="sides" placeholder="sides">
+                <input type="text" placeholder="keyword" class="query" />
             </div>
             <div class="col-xs-12 center-block text-center">
-                <button class="querysubmit btn btn-lg btn-primary">Submit </button>
+                <button class="spheresubmit btn btn-lg btn-primary" id="1">Make Sphere </button>
+                <button class="cubesubmit btn btn-lg btn-primary" id="2">Make Cube </button>
+
             </div>
         </div>
         <div class="row">
