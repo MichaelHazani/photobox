@@ -1,0 +1,10 @@
+.photo {
+  transition: all .5s ease-in-out;
+}
+.photo:hover {
+transform: scale(1.3);
+}
+
+.querysubmit {
+  margin-top: 5%;
+}
